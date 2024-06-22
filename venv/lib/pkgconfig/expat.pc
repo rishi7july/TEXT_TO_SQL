@@ -1,0 +1,13 @@
+prefix=/Users/rishi/opt/anaconda3/envs/text_to_sql/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.6.2
+Description: expat XML parser
+URL: https://libexpat.github.io/
+Libs: -L${libdir} -lexpat
+Libs.private: 
+Cflags: -I${includedir}
+Cflags.private: -DXML_STATIC

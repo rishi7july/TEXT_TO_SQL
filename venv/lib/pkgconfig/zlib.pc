@@ -1,0 +1,13 @@
+prefix=/Users/rishi/opt/anaconda3/envs/text_to_sql/venv
+exec_prefix=/Users/rishi/opt/anaconda3/envs/text_to_sql/venv
+libdir=/Users/rishi/opt/anaconda3/envs/text_to_sql/venv/lib
+sharedlibdir=/Users/rishi/opt/anaconda3/envs/text_to_sql/venv/lib
+includedir=/Users/rishi/opt/anaconda3/envs/text_to_sql/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
